@@ -12,8 +12,11 @@
     "example"
   ],
   "devDependencies": {
-    "mousetrap": "~1.5.2",
+    "mousetrap": "git://github.com/we-are-futureproofs-ltd/mousetrap",
     "angular-mocks": "~1.2.15",
     "angular-route": "~1.2.15"
+  },
+  "scripts": {
+    "postinstall": "./bin/build.sh"
   }
 }
